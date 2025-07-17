@@ -68,7 +68,7 @@ const About = () => {
                 >
                   <div className="w-full h-full bg-gray-200 dark:bg-gray-800 rounded-2xl overflow-hidden shadow-xl">
                     <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-200 dark:from-gray-700 dark:to-gray-800 flex items-center justify-center">
-                      <span className="text-lg md:text-xl font-medium text-gray-500 dark:text-gray-400">👨‍💻 Your Pic Here</span>
+                      <span className="text-lg md:text-xl font-medium text-gray-500 dark:text-gray-400"><img src="https://i.ibb.co/x8SCT5KJ/farhanportrait.jpg" alt="Farhan's image" /></span>
                     </div>
                   </div>
                 </motion.div>
@@ -133,7 +133,7 @@ const About = () => {
                   variants={item}
                 >
                   <motion.a 
-                    href="#contact" 
+                    href="#Connect" 
                     className="px-5 py-2.5 md:px-6 md:py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-xl hover:shadow-lg hover:shadow-indigo-500/20 transition-all duration-300 font-medium flex items-center gap-2 group"
                     whileHover={{ y: -2, scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}
@@ -142,7 +142,7 @@ const About = () => {
                     <span className="group-hover:translate-x-1 transition-transform">🚀</span>
                   </motion.a>
                   <motion.a 
-                    href="#projects" 
+                    href="https://github.com/faroutfarhaan" 
                     className="px-5 py-2.5 md:px-6 md:py-3 border-2 border-gray-200 dark:border-gray-700 text-gray-700 dark:text-gray-300 rounded-xl hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors duration-300 font-medium"
                     whileHover={{ y: -2, scale: 1.02 }}
                     whileTap={{ scale: 0.98 }}

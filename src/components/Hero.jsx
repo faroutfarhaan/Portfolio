@@ -117,6 +117,8 @@ const FloatingText = ({ children, position = [0, 0, 0], size = 1, color = 'white
 const Hero = () => {
   const [isHovered, setIsHovered] = React.useState(false);
   
+ 
+  
   return (
     <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-gray-900 via-purple-900 to-gray-900">
       <div className="absolute inset-0">
@@ -152,7 +154,7 @@ const Hero = () => {
             onHoverStart={() => setIsHovered(true)}
             onHoverEnd={() => setIsHovered(false)}
           >
-            MOH FARHAN
+            MOH FARHAN PATEL
           </motion.h1>
           <motion.p 
             className="text-xl md:text-2xl text-purple-300 font-light tracking-wider"
@@ -160,7 +162,7 @@ const Hero = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
           >
-            Full Stack Developer & Designer
+            Full Stack Developer
           </motion.p>
         </motion.div>
         
@@ -171,7 +173,8 @@ const Hero = () => {
           className="flex gap-4 justify-center"
         >
           <motion.a
-            href="#contact"
+          href='#Connect'
+            
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="px-6 py-3 bg-purple-600 text-white rounded-full font-medium hover:bg-purple-700 transition-colors"
